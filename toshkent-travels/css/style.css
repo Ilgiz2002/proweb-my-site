@@ -1,0 +1,324 @@
+@import 'fonts.css';
+:root{
+    /* Color */
+    --blue:#011556;
+    --blue_70:rgba(1, 21, 85, 0.70);
+    --white:#fff;
+    --black:#000;
+    --gray_50:rgba(255, 255, 255, 0.50);
+    --black_25:rgba(0, 0, 0, 0.25);
+    --black_80:rgba(0, 0, 0, 0.80);
+    --black_70:rgba(0, 0, 0, 0.70);
+    --black_50:rgba(0, 0, 0, 0.50);
+    /* Fonts */
+    --f100: 'Roboto-Thin';
+    --f400: 'Roboto-Regular';
+    --f500: 'Roboto-Medium';
+    --f700: 'Roboto-Bold';
+    --f900: 'Roboto-Black';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    max-width: 100%;
+    font-family: var(--f400);
+    scroll-behavior: smooth;
+}
+body{
+    min-width: 320px;
+}
+header{
+    height: 100vh;
+    min-height: 720px;
+}
+header nav{
+    padding: 50px 0 50px 0;
+}
+.logo{
+    font-family: var(--f900);
+    font-size: 40px;
+    color:var(--blue_70);
+}
+.header-content{
+    background: url(../images/header-content_bg.jpg) no-repeat center center /cover;
+}
+nav button::before, nav button::after, nav button span{
+     content:'';
+     display: block;
+     background: #746f77;
+     width: 35px;
+     height: 4px;
+     border-radius: 2px;
+
+}
+nav button{
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    border: none;
+}
+h1{
+    font-size: 50px;
+    color:var(--gray);
+    font-family: var(--f100);
+    text-align: center;
+}
+h1 span{
+    color: var(--blue);
+    font-family: var(--f700);
+}
+.header-info-desc{
+    font-size: 16px;
+    color: var(--black);
+}
+.header-content p{
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-content form{
+    max-width: 375px;
+    width: 100%;
+    padding: 35px 30px 10px 30px;
+    background: var(--white);
+    border-radius: 4px;
+}
+.header-content input,.header-content textarea{
+    border: none;
+    resize: none;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--black_25);
+}
+.header-content textarea{
+    height: 85px;
+}
+.header-content h4{
+    text-align: center;
+    color: var(--blue);
+    font-family: var(--f700);
+}
+.header-content button{
+    padding: 15px 30px;
+    background:var(--blue);
+    border-radius: 30px;
+    border: none;
+    color: var(--white);
+    font-family: var(--f700);
+    align-self: center;
+}
+.main-title{
+    color: var(--blue);
+    font-family: var(--f900);
+    font-size: 50px;
+}
+.link-countries{
+    font-family: var(--f700);
+    color: var(--blue);
+    font-size: 36px;
+}
+.card{
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.card-desc{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--gray_50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 60px;
+    transition: 500ms;
+    transform: scaleX(0);
+    opacity: 0;
+}
+.card:hover .card-desc{
+    top: 0;
+    transform: scaleX(1);
+    opacity: 1;
+}
+.card-desc h4{
+   color: var(--blue);
+   font-size: 36px;
+   text-align: center;
+
+}
+.card-desc p{
+    font-size: 14px;
+    color: var(--blue);
+    text-align: center;
+}
+
+.section-sights{
+    background: #fbfbfb;
+}
+.sights-title{
+    color: var(--blue);
+    font-family: var(--f900);
+    font-size: 50px;
+}
+
+.sights-sub-title {
+    text-align: center;
+    color: var(--black);
+    font-family: var(--f500);
+    color: var(--blue);
+    font-size: 16px;
+    max-width: 735px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.sights a{
+    color: var(--white);
+    background: var(--blue);
+    padding: 15px 45px;
+    border: none;
+    border-radius: 25px;
+    align-self: center;
+}
+.documents p, li{
+    color: var(--black);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.documents-list{
+    padding-left: 40px;
+}
+.best-tour{
+    background: #fbfbfb;
+}
+.best-tour_sub-title{
+    color: var(--black_50);
+    font-size: 16px;
+    max-width: 735px;
+    margin: 0 auto;
+    
+}
+.tours{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.tour-desc{
+    position: absolute;
+    bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08) inset;
+    padding: 5px 0 10px 0;
+    width: 80%;
+}
+
+.tour-desc h5{
+    margin: 0;
+    color: var(--black_70);
+    font-size: 28px;
+    font-family: var(--f500);
+}
+.tour-desc p{
+    color:var(--blue_70);
+    font-size: 24px;
+    font-family: var(--f500);
+}
+.feed-sub-title{
+    color: var(--black_50);
+    font-size: 16px;
+    font-family: var(--f500);
+    margin-bottom: 140px;
+}
+.feed-content{
+    position: relative;
+    background: var(--white);
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.09) inset;
+    margin-bottom: 60px;
+    padding: 130px 55px 21px 55px;
+}
+.feed-user{
+    position: absolute;
+    top: -50px;
+    
+}
+.feed-content p {
+    color: var(--black_70);
+}
+footer{
+    background: #f7f7f7;
+}
+.link-contact{
+    background: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    padding: 22px 85px;
+    border-radius: 27px;
+    border: none;
+}
+footer p{
+    color: var(--black_50);
+    font-size: 17px;
+    margin-left: 45px;
+    margin-bottom: 0;
+}
+.social{
+    margin-left: 15px;
+}
+.fa-facebook-f:hover{
+    background: #3b5998;
+    color: var(--white);
+}
+.fa-facebook-f{
+    font-size: 22px;
+    background: #d3d3d3;
+    color: var(--white);
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 16px 0;
+}
+.fa-twitter{
+    font-size: 22px;
+    background: #d3d3d3;
+    color: var(--white);
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 16px 0;
+}
+.fa-twitter:hover{
+    background: #00acee;
+    color:var(--white)
+}
+
+
+
+
+
+@media (max-width:700px){
+    .sights-title{
+        font-size: 40px;
+    }
+
+}
+@media (max-width:500px){
+    .sights-title{
+        font-size: 30px;
+    }
+}

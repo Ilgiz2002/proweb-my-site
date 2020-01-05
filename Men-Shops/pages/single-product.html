@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="../images/images.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Product</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__nav-pre">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto d-none d-md-block">
+                        <p class="header__tel">наш номер:<a href="tel:+998907417839">+998907417839</a></p>
+                    </div>
+                    <div class="col-auto h-100 d-flex align-items-center">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdown_lang" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                rus
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdown_lang">
+                                <a class="dropdown-item" href="#">uzb</a>
+                                <a class="dropdown-item" href="#">eng</a>
+                                <a class="dropdown-item" href="#">fr</a>
+                            </div>
+                        </div>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="header__user" data-toggle="modal" data-target="#my-account">
+                            <i class="fas fa-user"></i>мой акаунт
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="my-account" tabindex="-1" role="dialog"
+                            aria-labelledby="my-accountTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Вход</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="user-email">Ваша почта</label>
+                                                <input type="email" class="form-control" id="user-email"
+                                                    aria-describedby="user-emailHelp" placeholder="Введите Вашу почту">
+                                                <small id="user-emailHelp" class="form-text text-muted">Мы никогда не
+                                                    передадим вашу электронную почту кому-либо еще.</small>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="user-pass">Ваш пароль</label>
+                                                <input type="password" class="form-control" id="user-pass"
+                                                    placeholder="Введите Ваш пароль">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="remeber-me">
+                                                <label class="form-check-label" for="remeber-me">Запомнить</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-secondary">Вход</button>
+                                            <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#registration" aria-label="Close" data-dismiss="modal">
+                                                Регистрация
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button trigger modal -->
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="registration" tabindex="-1" role="dialog"
+                            aria-labelledby="registrationTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Регистрация</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="reg-user-email">Ваша почта</label>
+                                                    <input type="email" class="form-control" id="reg-user-email"
+                                                        placeholder="Введите вашу почту">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="reg-pass-user">Ваш пароль</label>
+                                                    <input type="password" class="form-control" id="reg-pass-user"
+                                                        placeholder="Введите ваш пароль">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="addres-user-reg">Адрес</label>
+                                                <input type="text" class="form-control" id="addres-user-reg"
+                                                    placeholder="1234 Main St">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputAddress2">Address 2</label>
+                                                <input type="text" class="form-control" id="inputAddress2"
+                                                    placeholder="Apartment, studio, or floor">
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="inputCity">City</label>
+                                                    <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                    <label for="inputState">State</label>
+                                                    <select id="inputState" class="form-control">
+                                                        <option selected>Choose...</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-md-2">
+                                                    <label for="inputZip">Zip</label>
+                                                    <input type="text" class="form-control" id="inputZip">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                        Check me out
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="header__search"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="header__nav">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-between align-items-center">
+                    <div class="col-auto"><a class="logo" href="../index.html">Mens Shop</a></div>
+                    <div class="col-auto">
+                        <ul class="d-flex flex-wrap m-0 header__menu justify-content-center">
+                            <li class="m-2"><a href="../index.html">Главная</a></li>
+                            <li class="m-2"><a href="pages/single-product.html">Ассортимент</a></li>
+                            <li class="m-2"><a href="">Что жарко?</a></li>
+                            <li class="m-2"><a href="">Скидки</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle d-flex justify-content-between align-items-center"
+                                type="button" id="dropdown-carts" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Ваша карта
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-carts">
+                                <a class="dropdown-item" href="#">карта 1</a>
+                                <a class="dropdown-item" href="#">карта 2</a>
+                                <a class="dropdown-item" href="#">карта 3</a>
+                            </div>
+                        </div>
+                        <div class="shopping-basket d-flex justify-content-between">
+                            <div class="basket"><i class="fas fa-shopping-bag"></i></div>
+                            <p>0 ПОКУПОК <span>$ 0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="container">
+            <section class="single-product">
+                <div class="single-product__content row pb-5 justify-content-center">
+                    <div class="col-lg-5 col-md-6 col-sm-12"><img src="../images/Single Product/single-product.jpg" alt=""></div>
+                    <div class="col-lg-7 col-md-6 col-sm-12">
+                        <div class="single-product__crambs">
+                            <a class="single-product__link " href="../index.html">
+                                <i class="fal fa-chevron-left mr-1"></i>
+                                Назад на главную
+                            </a>
+                        </div>
+
+                        <h2 class="single-product__title">Свитер</h2>
+                        <strong class="single-product__price">98.95$</strong>
+                        <p class="single-product__info">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                            vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                            consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus
+                            a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                            ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat
+                            justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed
+                            ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum
+                            feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci
+                            enim.</p>
+                        <div class="single-product__select d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button">
+                                    Выбрать размер
+                                </button>
+                                <button type="button" class=" dropdown-toggle dropdown-toggle-split"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="sr-only"></span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">L</a>
+                                    <a class="dropdown-item" href="#">XL</a>
+                                    <a class="dropdown-item" href="#">XXL</a>
+                                </div>
+                            </div>
+                            <ul class="d-flex">
+                                <li class="mr-1"><a href="" class="single-product__color"><img src="../images/Single Product/color-image1.png" alt=""></a></li>
+                                <li class="mr-1"><a href="" class="single-product__color"><img src="../images/Single Product/color-image2.png" alt=""></a></li>
+                                <li class="mr-1"><a href="" class="single-product__color"><img src="../images/Single Product/color-image3.png" alt=""></a></li>
+                                <li class="mr-1"><a href="" class="single-product__color"><img src="../images/Single Product/color-image4.png" alt=""></a></li>
+                                <li class="mr-1"><a href="" class="single-product__color"><img src="../images/Single Product/color-image5.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="single-product__add">
+                            <button>-</button>
+                            <output>1</output>
+                            <button>-</button>
+                            <button>add to cart<i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-product__social">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-auto">
+                            <a class="d-flex align-items-center" href="">
+                                <i class="fab fa-facebook-f"></i>
+                                <strong class="d-flex flex-column align-items-start">
+                                    <span>Поделиться</span>
+                                    <span>в FACEBOOK</span>
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="d-flex align-items-center" href="">
+                                <i class="fab fa-pinterest"></i>
+                                <strong class="d-flex flex-column align-items-start">
+                                    <span>pin</span>
+                                    <span>ЭТОТ ПРОДУТ</span>
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="d-flex align-items-center" href="">
+                                <i class="fab fa-twitter"></i>
+                                <strong class="d-flex flex-column align-items-start">
+                                    <span>тВИТНУТЬ</span>
+                                    <span>ПРОДУКТ</span>
+                                </strong>
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a class="d-flex align-items-center" href="">
+                                <i class="fas fa-envelope"></i>
+                                <strong class="d-flex flex-column align-items-start">
+                                    <span>ПОДЕЛИТЬСЯ</span>
+                                    <span>EMAIL</span>
+                                </strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single-product__option">
+                    <div class="accordion" id="single-product__accordion">
+                        <div class="card">
+                            <div id="heading-desc">
+                                <h5 class="mb-0">
+                                    <button
+                                        class="single-product__options-btn w-100 text-left collapsed accordion__desc-bg"
+                                        type="button" data-toggle="collapse" data-target="#collapse-desc"
+                                        aria-expanded="false" aria-controls="collapse-desc">
+                                        <i class="fal fa-chevron-right"></i>description
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapse-desc" class="collapse" aria-labelledby="heading-desc"
+                                data-parent="#single-product__accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="heading-info">
+                                <h5 class="mb-0">
+                                    <button
+                                        class="single-product__options-btn w-100 text-left collapsed accordion__info-bg"
+                                        type="button" data-toggle="collapse" data-target="#collapse-info"
+                                        aria-expanded="false" aria-controls="collapse-info">
+                                        <i class="fal fa-chevron-right"></i>additional information
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse-info" class="collapse" aria-labelledby="heading-info"
+                                data-parent="#single-product__accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="heading-reviews">
+                                <h5 class="mb-0">
+                                    <button
+                                        class="single-product__options-btn w-100 text-left collapsed accordion__reviews-bg"
+                                        type="button" data-toggle="collapse" data-target="#collapse-reviews"
+                                        aria-expanded="false" aria-controls="collapse-reviews">
+                                        <i class="fal fa-chevron-right"></i>reviews (12)
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse-reviews" class="collapse" aria-labelledby="heading-reviews"
+                                data-parent="#single-product__accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="heading-help">
+                                <h5 class="mb-0">
+                                    <button
+                                        class="single-product__options-btn w-100 text-left collapsed accordion__help-bg"
+                                        type="button" data-toggle="collapse" data-target="#collapse-help"
+                                        aria-expanded="false" aria-controls="collapse-help">
+                                        <i class="fal fa-chevron-right"></i>helpful links
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse-help" class="collapse" aria-labelledby="heading-help"
+                                data-parent="#single-product__accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="heading-gift">
+                                <h5 class="mb-0">
+                                    <button
+                                        class="single-product__options-btn w-100 text-left collapsed accordion__gift-bg"
+                                        type="button" data-toggle="collapse" data-target="#collapse-gift"
+                                        aria-expanded="false" aria-controls="collapse-gift">
+                                        <i class="fal fa-chevron-right"></i>make a gift
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse-gift" class="collapse" aria-labelledby="heading-gift"
+                                data-parent="#single-product__accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="main-sale">
+            <div class="container">
+                <div class="main-sale__discount mt-5 mb-5">
+                    <h2 class="w-50 d-flex justify-content-center mb-0 text-center">продукты со скидкой</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="product-card">
+                            <img src="../images/card__image.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h4>рубашка белая</h4>
+                                <p>$30.00</p>
+                                <a class="btn-buy" href="">Купить сейчас <i class="fas fa-caret-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="product-card">
+                            <img src="../images/card__image.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h4>рубашка белая</h4>
+                                <p>$30.00</p>
+                                <a class="btn-buy" href="">Купить сейчас <i class="fas fa-caret-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="product-card">
+                            <div class="product-card__sale">
+                                <p>sale</p>
+                                <p>50%</p>
+                            </div>
+                            <img src="../images/card__image.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h4>рубашка белая</h4>
+                                <p>$30.00</p>
+                                <a class="btn-buy" href="">Купить сейчас <i class="fas fa-caret-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-sm-12">
+                        <div class="product-card">
+                            <div class="product-card__sale">
+                                <p>sale</p>
+                                <p>50%</p>
+                            </div>
+                            <img src="../images/card__image.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h4>рубашка белая</h4>
+                                <p>$30.00</p>
+                                <a class="btn-buy" href="">Купить сейчас <i class="fas fa-caret-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-auto">
+                    <h6>Наш сервис</h6>
+                    <ul>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Terms of payment</a></li>
+                        <li><a href="">Terms of sale</a></li>
+                        <li><a href="">Delivery terms and conditions</a></li>
+                        <li><a href="">Returns and Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-auto">
+                    <h6>Информация</h6>
+                    <ul>
+                        <li><a href="">Affiliate</a></li>
+                        <li><a href="">Cookies</a></li>
+                        <li><a href="">How to Shop</a></li>
+                        <li><a href="">About Nelly</a></li>
+                        <li><a href="">Investor relations</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-auto">
+                    <h6>Компании</h6>
+                    <ul>
+                        <li><a href="">Evening dresses</a></li>
+                        <li><a href="">Makeup</a></li>
+                        <li><a href="">Fashion forward</a></li>
+                        <li><a href="">training clothes</a></li>
+                        <li><a href="">Special Occasion Dresses</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-auto">
+                    <h6>История</h6>
+                    <ul>
+                        <li><a href="">Paris</a></li>
+                        <li><a href="">New York</a></li>
+                        <li><a href="">London</a></li>
+                        <li><a href="">Madrid</a></li>
+                        <li><a href="">Tokio</a></li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-column align-items-center col-lg-2 col-md-3 col-12">
+                    <h6 class="footer__social">Соц сети</h6>
+                    <ul class="social-footer">
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href=""><i class="fab fa-tumblr"></i></a></li>
+                        <li><a href=""><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6  align-self-center">
+                    <img class="secured_img ml-auto d-none d-lg-block" src="../images/secured.png" alt="">
+                </div>
+            </div>
+            <div class="footer-after d-flex flex-wrap justify-content-center justify-content-md-between mt-5 align-items-center">
+                <ul class="d-flex flex-wrap justify-content-center text-center align-items-center">
+                    <li><a href="">Privacy & Cookies</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Accessibility</a></li>
+                    <li><a href="">Store Directory</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+                <a class="d-flex flex-wrap text-center flex-column align-items-end" href=""><strong
+                        class="d-flex flex-column align-items-start">© MensShop.com</strong><span>All Rights
+                        Reserved</span></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../scripts/jquery.js"></script>
+    <script src="../scripts/poper.js"></script>
+    <script src="../scripts/bootstrap.js"></script>
+</body>
+
+</html>
