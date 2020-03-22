@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+        fill: #2a2a2a;
+        font-family: FontAwesome5Free-Solid, FontAwesome5Free;
+      }
+    </style>
+  </defs>
+  <text id="services-left-arrow.svg" class="cls-1" transform="matrix(-1, 0, 0, 1, 7.916, 12.447)"></text>
+</svg>

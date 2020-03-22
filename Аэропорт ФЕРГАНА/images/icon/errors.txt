@@ -1,0 +1,18 @@
+[2019-12-02 14:38:43] layer "+1 234 567 890": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-12-02 14:38:43] layer "+1 234 567 890": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-12-02 14:38:43] layer "e-mail@.com": Unsupported extension: com
+[2019-12-02 14:38:43] layer "angle-down.svg": Duplicate path: angle-down.svg
+[2019-12-02 14:38:48] layer "telegram-youtube-instagram-facebook.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:48] layer "footer-email.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:48] layer "footer-phone.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:48] layer "reklama-left-arrow.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:49] layer "reklama-right-arrow.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:49] layer "news-left-arrow.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:49] layer "news-right-arrow.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:50] layer "services-left-arrow.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:52] layer "services-right-arrow-hover.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:54] layer "search.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:55] layer "angle-down.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:55] layer "eye.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:56] layer "dollar.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-12-02 14:38:55] layer "phone.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.

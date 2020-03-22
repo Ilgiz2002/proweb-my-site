@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Аэропорт Фергана</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__slider">
+            <div id="header__slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item item-1__bg active">
+                        <nav class="header__pre-nav  d-none d-lg-flex ">
+                            <div class="container">
+                                <div
+                                    class="row justify-content-center text-center justify-content-md-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="header__pre-nav_left d-flex align-items-center">
+                                            <i class="fas fa-dollar-sign mr-2"></i>
+                                            <div class="header__dropdown mr-5">
+                                                <button class="dropdown-toggle" type="button" id="currency-dropdown-1"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    US Dollar
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="slider-item-1__dropdown">
+                                                    <a class="dropdown-item" href="#">Sum</a>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 d-flex align-items-center">
+                                                <i class="fas fa-phone-alt mr-2"></i>
+                                                <a href="">+1 234 567 890</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="header__pre-nav_right d-flex">
+                                            <p class="mr-5 mb-0 d-flex align-items-center">
+                                                <i class="far fa-eye mr-2"></i>
+                                                <a href="">Версия для слабовидящих</a>
+                                            </p>
+                                            <p class="mr-5 mb-0">17 - октября, 23:45</p>
+
+                                            <div class="header__dropdown">
+
+
+                                                <button class="dropdown-toggle" type="button" id="language__dropdown-1"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <img class="mr-2" src="images/russian-flag.png" alt="">
+                                                    Русский
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="language__dropdown-1">
+                                                    <a class="dropdown-item" href="#"><img src="images/uzbekistan.png"
+                                                            alt=""> Узбекский</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="header__nav">
+                            <div class="container">
+                                <div
+                                    class="row justify-content-center text-center justify-content-lg-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="logo d-flex">
+                                            <a href="index.html">
+                                                <img src="images/logo.png" alt="" class="logo">
+                                            </a>
+                                            <p class="mb-0 ml-3">
+                                                Международный Аэропорт <br>
+                                                <strong class="text-uppercase">Фергана</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <ul class="header__nav-list d-flex flex-wrap">
+                                        <li><a class="hvr-underline-from-center" href="">Вылет</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Прилёт</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Услуги</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Партнерам</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Аэропорт</a></li>
+                                        <li><a class="hvr-underline-from-center" href=""><i
+                                                    class="fas fa-search"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="slider__content">
+                                        <h1>Выиграй 2 билета <br>
+                                            до <strong>Дохи</strong></h1>
+                                        <p>7-21 октября</p>
+                                        <div class="modal__feed-back mt-3">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn hvr-ripple-out text-uppercase"
+                                                data-toggle="modal" data-target="#user-massage">
+                                                подробнее
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class=" modal fade" id="user-massage" tabindex="-1" role="dialog"
+                                                aria-labelledby="user-massageTitle" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLongTitle">Задать
+                                                                вопрос</h5>
+                                                            <button type="button" class="close ml-0"
+                                                                data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form class="header-form d-flex flex-column text-center">
+                                                                <input type="text" placeholder="Имя">
+                                                                <input type="text" placeholder="E-mail">
+                                                                <input type="text" placeholder="Телефон">
+
+                                                                <textarea placeholder="Вопросы"></textarea>
+                                                                <a href="">Отправить</a>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item item-2__bg">
+                        <nav class="header__pre-nav  d-none d-lg-flex ">
+                            <div class="container">
+                                <div
+                                    class="row justify-content-center text-center justify-content-md-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="header__pre-nav_left d-flex align-items-center">
+                                            <i class="fas fa-dollar-sign mr-2"></i>
+                                            <div class="header__dropdown mr-5">
+
+                                                <button class="dropdown-toggle" type="button" id="currency__dropdown-2"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    US Dollar
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="currency__dropdown-2">
+                                                    <a class="dropdown-item" href="#">Sum</a>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 d-flex align-items-center">
+                                                <i class="fas fa-phone-alt mr-2"></i>
+                                                <a href="">+1 234 567 890</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="header__pre-nav_right d-flex">
+                                            <p class="mr-5 mb-0 d-flex align-items-center">
+                                                <i class="far fa-eye mr-2"></i>
+                                                <a href="">Версия для слабовидящих</a>
+                                            </p>
+                                            <p class="mr-5 mb-0">17 - октября, 23:45</p>
+
+                                            <div class="header__dropdown">
+
+                                                <button class="dropdown-toggle" type="button" id="language__dopdown-2"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <img class="mr-2" src="images/russian-flag.png" alt="">
+                                                    Русский
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="language__dopdown-2">
+                                                    <a class="dropdown-item" href="#"><img src="images/uzbekistan.png"
+                                                            alt=""> Узбекский</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="header__nav">
+                            <div class="container">
+                                <div
+                                    class="row justify-content-center text-center justify-content-lg-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="logo d-flex">
+                                            <a href="index.html">
+                                                <img src="images/logo.png" alt="" class="logo">
+                                            </a>
+                                            <p class="mb-0 ml-3">
+                                                Международный Аэропорт <br>
+                                                <strong class="text-uppercase">Фергана</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <ul class="header__nav-list d-flex flex-wrap">
+                                        <li><a class="hvr-underline-from-center" href="">Вылет</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Прилёт</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Услуги</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Партнерам</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Аэропорт</a></li>
+                                        <li><a class="hvr-underline-from-center" href=""><i
+                                                    class="fas fa-search"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="slider__content">
+                                        <h1>Выиграй 2 билета <br>
+                                            до <strong>Дохи</strong></h1>
+                                        <p>7-21 октября</p>
+                                        <div class="modal__user-massage mt-3">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn hvr-ripple-out text-uppercase"
+                                                data-toggle="modal" data-target="#user-massage2">
+                                                подробнее
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class=" modal fade" id="user-massage2" tabindex="-1" role="dialog"
+                                                aria-labelledby="user-massage2Title" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="user-massage-2">Задать
+                                                                вопрос</h5>
+                                                            <button type="button" class="close ml-0"
+                                                                data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form class="header-form d-flex flex-column text-center">
+                                                                <input type="text" placeholder="Имя">
+                                                                <input type="text" placeholder="E-mail">
+                                                                <input type="text" placeholder="Телефон">
+
+                                                                <textarea placeholder="Вопросы"></textarea>
+                                                                <a href="">Отправить</a>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-3__bg">
+                        <nav class="header__pre-nav  d-none d-lg-flex ">
+                            <div class="container">
+                                <div
+                                    class="row justify-content-center text-center justify-content-md-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="header__pre-nav_left d-flex align-items-center">
+                                            <i class="fas fa-dollar-sign mr-2"></i>
+                                            <div class="header__dropdown mr-5">
+
+                                                <button class="dropdown-toggle" type="button" id="currency__dropdown-3"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    US Dollar
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="currency__dropdown-3">
+                                                    <a class="dropdown-item" href="#">Sum</a>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 d-flex align-items-center">
+                                                <i class="fas fa-phone-alt mr-2"></i>
+                                                <a href="">+1 234 567 890</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="header__pre-nav_right d-flex">
+                                            <p class="mr-5 mb-0 d-flex align-items-center">
+                                                <i class="far fa-eye mr-2"></i>
+                                                <a href="">Версия для слабовидящих</a>
+                                            </p>
+                                            <p class="mr-5 mb-0">17 - октября, 23:45</p>
+
+                                            <div class="header__dropdown">
+
+                                                <button class="dropdown-toggle" type="button" id="language__dopdown-3"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <img class="mr-2" src="images/russian-flag.png" alt="">
+                                                    Русский
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="language__dopdown-3">
+                                                    <a class="dropdown-item" href="#"><img src="images/uzbekistan.png"
+                                                            alt=""> Узбекский</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        <nav class="header__nav">
+                            <div class="container">
+                                <div
+                                    class="row justify-content-center text-center justify-content-lg-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="logo d-flex">
+                                            <a href="index.html">
+                                                <img src="images/logo.png" alt="" class="logo">
+                                            </a>
+                                            <p class="mb-0 ml-3">
+                                                Международный Аэропорт <br>
+                                                <strong class="text-uppercase">Фергана</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <ul class="header__nav-list d-flex flex-wrap">
+                                        <li><a class="hvr-underline-from-center" href="">Вылет</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Прилёт</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Услуги</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Партнерам</a></li>
+                                        <li><a class="hvr-underline-from-center" href="">Аэропорт</a></li>
+                                        <li><a class="hvr-underline-from-center" href=""><i
+                                                    class="fas fa-search"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-auto">
+                                    <div class="slider__content">
+                                        <h1>Выиграй 2 билета <br>
+                                            до <strong>Дохи</strong></h1>
+                                        <p>7-21 октября</p>
+                                        <div class="modal__feed-back mt-3">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn hvr-ripple-out text-uppercase"
+                                                data-toggle="modal" data-target="#user-massage1">
+                                                подробнее
+                                            </button>
+
+                                            <!-- Modal -->
+                                            <div class=" modal fade" id="user-massage1" tabindex="-1" role="dialog"
+                                                aria-labelledby="user-massage1Title" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="user-massage-1">Задать
+                                                                вопрос</h5>
+                                                            <button type="button" class="close ml-0"
+                                                                data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form class="header-form d-flex flex-column text-center">
+                                                                <input type="text" placeholder="Имя">
+                                                                <input type="text" placeholder="E-mail">
+                                                                <input type="text" placeholder="Телефон">
+
+                                                                <textarea placeholder="Вопросы"></textarea>
+                                                                <a href="">Отправить</a>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#header__slider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#header__slider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="main-online-tab pt-5 pb-5" id="online-tab">
+            <h2 class="main__title text-center">Онлайн-табло рейсов</h2>
+            <nav>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="nav nav-tabs text-center" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">Онлайн-табло рейсов</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">Прилёт <i
+                                    class="fas fa-plane-arrival ml-2"></i></a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Вылет<i
+                                    class="fas fa-plane-departure ml-2"></i></a>
+                      </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="container">
+                        <div class="table d-flex justify-content-center">
+                            <ul class="table__column-1 d-flex flex-column">
+                                <li class="table__header-tab">Рейса</li>
+                                <li class="table__list-gray">LH 2528</li>
+                                <li>ym 614</li>
+                                <li class="table__list-gray">u6 372</li>
+                                <li>s7 2044</li>
+                                <li class="table__list-gray">gh 1046</li>
+                            </ul>
+                            <ul class="table__column-2 d-flex flex-column">
+                                <li class="table__header-tab">Авиакомпания</li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-1.png" alt=""></li>
+                                <li><img src="images/online-tab__img-2.png" alt=""></li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-3.png" alt=""></li>
+                                <li><img src="images/online-tab__img-4.png" alt=""></li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-5.png" alt=""></li>
+                            </ul>
+                            <ul class="table__column-3 d-flex flex-column">
+                                <li class="table__header-tab">Откуда</li>
+                                <li class="table__list-gray">МЮНХЕН</li>
+                                <li>ТИВАН</li>
+                                <li class="table__list-gray">КАЛИНИНГРАД</li>
+                                <li>СОЧИ</li>
+                                <li class="table__list-gray">МЮНХЕН</li>
+                            </ul>
+                            <ul class="table__column-4 d-flex flex-column">
+                                <li class="table__header-tab">Время</li>
+                                <li class="table__list-gray">15:10</li>
+                                <li>05:25</li>
+                                <li class="table__list-gray">15:00</li>
+                                <li>15:05</li>
+                                <li class="table__list-gray">15:15</li>
+                            </ul>
+                            <ul class="table__column-5 d-flex flex-column">
+                                <li class="table__header-tab">Статус</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Ожидается в 15:20</li>
+                            </ul>
+                            <ul class="table__column-6 d-flex flex-column">
+                                <li class="table__header-tab">Время фактически</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Ожидается в 15:20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="container">
+                        <div class="table d-flex justify-content-center">
+                            <ul class="table__column-1 d-flex flex-column">
+                                <li class="table__header-tab">Рейса</li>
+                                <li class="table__list-gray">LH 2528</li>
+                                <li>ym 614</li>
+                                <li class="table__list-gray">u6 372</li>
+                                <li>s7 2044</li>
+                                <li class="table__list-gray">gh 1046</li>
+                            </ul>
+                            <ul class="table__column-2 d-flex flex-column">
+                                <li class="table__header-tab">Авиакомпания</li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-1.png" alt=""></li>
+                                <li><img src="images/online-tab__img-2.png" alt=""></li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-3.png" alt=""></li>
+                                <li><img src="images/online-tab__img-4.png" alt=""></li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-5.png" alt=""></li>
+                            </ul>
+                            <ul class="table__column-3 d-flex flex-column">
+                                <li class="table__header-tab">Откуда</li>
+                                <li class="table__list-gray">МЮНХЕН</li>
+                                <li>ТИВАН</li>
+                                <li class="table__list-gray">КАЛИНИНГРАД</li>
+                                <li>СОЧИ</li>
+                                <li class="table__list-gray">МЮНХЕН</li>
+                            </ul>
+                            <ul class="table__column-4 d-flex flex-column">
+                                <li class="table__header-tab">Время</li>
+                                <li class="table__list-gray">15:10</li>
+                                <li>05:25</li>
+                                <li class="table__list-gray">15:00</li>
+                                <li>15:05</li>
+                                <li class="table__list-gray">15:15</li>
+                            </ul>
+                            <ul class="table__column-5 d-flex flex-column">
+                                <li class="table__header-tab">Статус</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Ожидается в 15:20</li>
+                            </ul>
+                            <ul class="table__column-6 d-flex flex-column">
+                                <li class="table__header-tab">Время фактически</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Ожидается в 15:20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="container">
+                        <div class="table d-flex justify-content-center">
+                            <ul class="table__column-1 d-flex flex-column">
+                                <li class="table__header-tab">Рейса</li>
+                                <li class="table__list-gray">LH 2528</li>
+                                <li>ym 614</li>
+                                <li class="table__list-gray">u6 372</li>
+                                <li>s7 2044</li>
+                                <li class="table__list-gray">gh 1046</li>
+                            </ul>
+                            <ul class="table__column-2 d-flex flex-column">
+                                <li class="table__header-tab">Авиакомпания</li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-1.png" alt=""></li>
+                                <li><img src="images/online-tab__img-2.png" alt=""></li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-3.png" alt=""></li>
+                                <li><img src="images/online-tab__img-4.png" alt=""></li>
+                                <li class="table__list-gray"><img src="images/online-tab__img-5.png" alt=""></li>
+                            </ul>
+                            <ul class="table__column-3 d-flex flex-column">
+                                <li class="table__header-tab">Откуда</li>
+                                <li class="table__list-gray">МЮНХЕН</li>
+                                <li>ТИВАН</li>
+                                <li class="table__list-gray">КАЛИНИНГРАД</li>
+                                <li>СОЧИ</li>
+                                <li class="table__list-gray">МЮНХЕН</li>
+                            </ul>
+                            <ul class="table__column-4 d-flex flex-column">
+                                <li class="table__header-tab">Время</li>
+                                <li class="table__list-gray">15:10</li>
+                                <li>05:25</li>
+                                <li class="table__list-gray">15:00</li>
+                                <li>15:05</li>
+                                <li class="table__list-gray">15:15</li>
+                            </ul>
+                            <ul class="table__column-5 d-flex flex-column">
+                                <li class="table__header-tab">Статус</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Ожидается в 15:20</li>
+                            </ul>
+                            <ul class="table__column-6 d-flex flex-column">
+                                <li class="table__header-tab">Время фактически</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Прибыл</li>
+                                <li>Прибыл</li>
+                                <li class="table__list-gray">Ожидается в 15:20</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="info pt-5 pb-5 mt-5" id="info">
+            <h2 class="main-title text-center mb-4">Информационный блок</h2>
+            <div class="container">
+                <div class="row justify-content-center justify-content-md-between">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="info-card text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="83" viewBox="0 0 90 83">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #808080;
+                                            fill-rule: evenodd;
+                                        }
+
+                                        .info-card:hover .cls-1 {
+                                            fill: #fff;
+                                        }
+                                    </style>
+                                </defs>
+                                <path id="information.svg" class="cls-1"
+                                    d="M535.712,1951.77h-2.406v7.18h2.409A3.59,3.59,0,1,0,535.712,1951.77Zm-49.022,0-6.018,3.59,6.018,3.59H530.9v-7.18H486.69Zm61.879-75.83H471.433a6.414,6.414,0,0,0-6.433,6.39v57.36a6.406,6.406,0,0,0,6.429,6.39h77.139a6.413,6.413,0,0,0,6.432-6.39v-57.36A6.408,6.408,0,0,0,548.569,1875.94Zm0,17.54v46.21H471.428v-30.38h0v-15.49h77.137v4.83Zm-20.727,7.69c2.246-2.55,6.051-2.37,8.647-1.72a5.836,5.836,0,0,1,2.945,1.83c0.527,0.73,1.524,2.27,1.311,3.15a1.222,1.222,0,0,0-.057,1.19c0.361,0.48,1.924,2.54,1.924,2.54a0.465,0.465,0,0,1-.181.75,0.846,0.846,0,0,0-.608.84c0,0.32.5,1,.016,1.19,0,0-.5.18-0.374,0.31a4.633,4.633,0,0,0,.5.36,0.419,0.419,0,0,1-.143.55,1.1,1.1,0,0,0-.485.91,4.438,4.438,0,0,0,.249,1.12c0.056,0.19.29,1.06-1.257,1.35s-1.834-.23-2.264,1.3c0,0-.073,1.62-0.073,1.8h-6.857v-1.91a8.438,8.438,0,0,0-.272-1.78l-0.5-1.31a2.151,2.151,0,0,0-1.241-1.14,8.776,8.776,0,0,1-2.676-2.09A8.37,8.37,0,0,1,527.84,1901.17ZM478,1928.65h39.8a1.54,1.54,0,1,0,0-3.08H478A1.54,1.54,0,1,0,478,1928.65Zm0,6.41h39.8a1.54,1.54,0,1,0,0-3.08H478A1.54,1.54,0,1,0,478,1935.06Zm-1.55-35.71h42.9v13.4h-42.9v-13.4Zm1.55,22.89h39.8a1.54,1.54,0,1,0,0-3.08H478A1.54,1.54,0,1,0,478,1922.24Zm48.083,12.82H542a1.54,1.54,0,1,0,0-3.08H526.087A1.54,1.54,0,1,0,526.087,1935.06Zm0-6.41H542a1.54,1.54,0,1,0,0-3.08H526.087A1.54,1.54,0,1,0,526.087,1928.65Z"
+                                    transform="translate(-465 -1875.94)" />
+                            </svg>
+                            <h5>Регистрация</h5>
+                            <p>Информация про <br>
+                                регистрацию</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="info-card text-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="99" height="73" viewBox="0 0 99 73">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: gray;
+                                            fill-rule: evenodd;
+                                        }
+                                    </style>
+                                </defs>
+                                <path id="parking.svg" class="cls-1"
+                                    d="M831.206,1902.77a3.678,3.678,0,0,0-.973.14l-3.695,1.04-3.836-9.51a8.368,8.368,0,0,0-7.163-4.89H779.63a8.365,8.365,0,0,0-7.163,4.89l-3.831,9.49-3.65-1.02a3.665,3.665,0,0,0-.972-0.14A3.025,3.025,0,0,0,761,1906v2.22a3.924,3.924,0,0,0,3.891,3.95h0.418l-0.619,1.54a30.13,30.13,0,0,0-1.832,9.44v18.89a3.933,3.933,0,0,0,3.891,3.96h5.083a3.933,3.933,0,0,0,3.891-3.96v-4.72h43.722v4.72a3.933,3.933,0,0,0,3.892,3.96h5.081a3.933,3.933,0,0,0,3.892-3.96v-18.89a30.158,30.158,0,0,0-1.832-9.44l-0.62-1.54h0.47a3.925,3.925,0,0,0,3.892-3.95V1906A3.026,3.026,0,0,0,831.206,1902.77Zm-59.781,7.25,5.8-14.38a5.035,5.035,0,0,1,4.295-2.93h32.12a5.034,5.034,0,0,1,4.295,2.93l5.805,14.38a1.97,1.97,0,0,1-1.931,2.93H773.356A1.97,1.97,0,0,1,771.425,1910.02Zm12.957,18.19a1.575,1.575,0,0,1-1.556,1.59H771.8a1.574,1.574,0,0,1-1.557-1.59v-5.38a1.572,1.572,0,0,1,1.557-1.58h11.026a1.573,1.573,0,0,1,1.556,1.58v5.38Zm40.439,0a1.575,1.575,0,0,1-1.556,1.59H812.239a1.574,1.574,0,0,1-1.556-1.59v-5.38a1.572,1.572,0,0,1,1.556-1.58h11.026a1.573,1.573,0,0,1,1.556,1.58v5.38ZM855.133,1873H836.7a4.914,4.914,0,0,0-4.867,4.95v18.75a4.915,4.915,0,0,0,4.867,4.95h7.4v42.08a1.817,1.817,0,1,0,3.633,0v-42.08h7.4A4.914,4.914,0,0,0,860,1896.7v-18.75A4.914,4.914,0,0,0,855.133,1873Zm-4.175,15.54a6.627,6.627,0,0,1-4.64,1.47h-2.669a0.583,0.583,0,0,0-.581.59v4.58a0.9,0.9,0,0,1-.887.9H840.16a0.9,0.9,0,0,1-.887-0.9v-15.71a0.9,0.9,0,0,1,.887-0.9h5.091c3.373,0,4.633.52,5.667,1.41a5.388,5.388,0,0,1,1.644,4.29A5.512,5.512,0,0,1,850.958,1888.54Zm-2.889-6.18a4.394,4.394,0,0,0-2.589-.57h-1.831a0.59,0.59,0,0,0-.581.59v3.77a0.59,0.59,0,0,0,.581.59h1.1c0.4,0,1.054-.03,1.451-0.07a5.1,5.1,0,0,0,1.872-.5A2.871,2.871,0,0,0,848.069,1882.36Z"
+                                    transform="translate(-761 -1873)" />
+                            </svg>
+                            <h5>Паркинг</h5>
+                            <p>Информация про <br>
+                                паркинг</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="info-card text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="73" viewBox="0 0 59 73">
+                                    <defs>
+                                      <style>
+                                        .cls-1 {
+                                          fill: gray;
+                                          fill-rule: evenodd;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <path id="disability.svg" class="cls-1" d="M1107.43,1887.39a7.2,7.2,0,1,0-7.2-7.2A7.2,7.2,0,0,0,1107.43,1887.39Zm11.13,40.76a15.915,15.915,0,1,1-21.7-18.94v-6.74a22.236,22.236,0,1,0,26.6,30.59l-2.51-4.93C1120.24,1928.14,1119.42,1928.14,1118.56,1928.15Zm20.98,8.54-9.65-18.94a4.214,4.214,0,0,0-3.77-2.31h-12.35v-2.82h10.63a3.1,3.1,0,0,0,2.53-1.35,3.068,3.068,0,0,0,.64-1.82,3.156,3.156,0,0,0-3.17-3.16h-10.63v-9.55a6.34,6.34,0,1,0-12.68,0v20.68a6.459,6.459,0,0,0,6.47,6.46h15.97l8.47,16.64a4.223,4.223,0,0,0,3.77,2.31,4.269,4.269,0,0,0,1.92-.46A4.222,4.222,0,0,0,1139.54,1936.69Z" transform="translate(-1081 -1873)"/>
+                                  </svg>
+                            <h5>Помощь</h5>
+                            <p>Информация для людей
+                                с органиченными
+                                возможностями</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="info-card text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="73" height="73" viewBox="0 0 73 73">
+                                    <defs>
+                                      <style>
+                                        .cls-1 {
+                                          fill: gray;
+                                          fill-rule: evenodd;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <path id="FAQ.svg" class="cls-1" d="M1439.7,1873h-58.4a7.315,7.315,0,0,0-7.3,7.3v58.4a7.321,7.321,0,0,0,7.3,7.3h58.4a7.328,7.328,0,0,0,7.3-7.3v-58.4A7.321,7.321,0,0,0,1439.7,1873Zm1.46,65.7a1.481,1.481,0,0,1-1.46,1.46h-58.4a1.481,1.481,0,0,1-1.46-1.46v-58.4a1.481,1.481,0,0,1,1.46-1.46h58.4a1.481,1.481,0,0,1,1.46,1.46v58.4Zm-31.05-15.6a4.783,4.783,0,0,0-3.47,1.39,4.572,4.572,0,0,0-1.41,3.41,4.484,4.484,0,0,0,1.46,3.55,5.058,5.058,0,0,0,3.42,1.26,4.936,4.936,0,0,0,3.35-1.29,4.482,4.482,0,0,0,1.44-3.52A4.747,4.747,0,0,0,1410.11,1923.1Zm9-37.29a18.567,18.567,0,0,0-8.22-1.73,18.067,18.067,0,0,0-8.77,2.05,15.021,15.021,0,0,0-5.72,5.2,11.621,11.621,0,0,0-1.96,6.18,3.942,3.942,0,0,0,1.24,2.76,4.135,4.135,0,0,0,3.03,1.25q3.06,0,4.15-3.63a14.164,14.164,0,0,1,2.83-5.24q1.665-1.785,5.2-1.79a7.021,7.021,0,0,1,4.93,1.76,5.726,5.726,0,0,1,1.91,4.35,4.877,4.877,0,0,1-.63,2.42,8.826,8.826,0,0,1-1.54,2.04c-0.61.62-1.61,1.53-2.97,2.73a46.516,46.516,0,0,0-3.72,3.54,11.569,11.569,0,0,0-2.22,3.48,11.842,11.842,0,0,0-.84,4.67,4.241,4.241,0,0,0,1.15,3.24,3.9,3.9,0,0,0,2.8,1.09c2.14,0,3.41-1.12,3.83-3.34,0.23-1.04.41-1.77,0.52-2.2a7.943,7.943,0,0,1,.5-1.25,7.577,7.577,0,0,1,.99-1.38,23.335,23.335,0,0,1,1.74-1.76c2.64-2.35,4.45-4.02,5.48-5.02a14.373,14.373,0,0,0,2.63-3.55,9.936,9.936,0,0,0,1.11-4.79,11.3,11.3,0,0,0-1.95-6.41A13.259,13.259,0,0,0,1419.11,1885.81Z" transform="translate(-1374 -1873)"/>
+                                  </svg>
+                            <h5>FAQ</h5>
+                            <p>Информация про
+                                часто задаваемые <br>
+                                вопросы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__services mt-5" id="main__services">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <h3 class="main-title">Наши <br>
+                            сервисы</h3>
+                    </div>
+                    <div class="col-lg-9">
+                        <div id="services__slider" class="services__slider pt-5 pb-5 carousel slide"
+                            data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="service__card">
+                                                <div class="service__img">
+                                                    <img src="images/services__img-1.jpg" alt="">
+                                                </div>
+                                                <div class="service__desc">
+                                                    <h5 class="text-center">CIP зал</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                            <div class="service__card d-none d-lg-block">
+                                                <div class="service__img">
+                                                    <img src="images/services__img-2.jpg" alt="">
+                                                </div>
+                                                <div class="service__desc">
+                                                    <h5 class="text-center">Авиакассы</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="service__card">
+                                                <div class="service__img">
+                                                    <img src="images/services__img-3.jpg" alt="">
+                                                </div>
+                                                <div class="service__desc">
+                                                    <h5 class="text-center">Обмен валют</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                            <div class="service__card d-none d-lg-block">
+                                                <div class="service__img">
+                                                    <img src="images/services__img-4.jpg" alt="">
+                                                </div>
+                                                <div class="service__desc">
+                                                    <h5 class="text-center">Банкоматы</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="service__card">
+                                                <div class=" service__img">
+                                                    <img src="images/services__img-5.jpg" alt="">
+                                                </div>
+                                                <div class="service__desc">
+                                                    <h5 class="text-center">Упаковка багажа</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service__carousel-control">
+                                <a class="carousel-control-prev" href="#services__slider" role="button"
+                                    data-slide="prev">
+                                    <i class="fas fa-chevron-left"></i>
+
+                                </a>
+                                <a class="carousel-control-next" href="#services__slider" role="button"
+                                    data-slide="next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main__news pt-5 pb-5" id="main__news">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <ul class="nav nav-pills mb-3 d-flex justify-content-center align-items-center" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link mr-5 active" id="pills-news-tab" data-toggle="pill"
+                                    href="#pills-news" role="tab" aria-controls="pills-news"
+                                    aria-selected="true">Новости</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-5" id="pills-info-tab" data-toggle="pill" href="#pills-info"
+                                    role="tab" aria-controls="pills-info" aria-selected="false">Информация</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mr-5" id="pills-tenders-tab" data-toggle="pill" href="#pills-tenders"
+                                    role="tab" aria-controls="pills-tenders" aria-selected="false">Тендеры</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-news" role="tabpanel" aria-labelledby="pills-news-tab">
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-md-between">
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-1.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-2.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-3.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-4.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-5.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-10">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-6.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-info" role="tabpanel" aria-labelledby="pills-info-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-6.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-5.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-4.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-3.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-2.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-1.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-tenders" role="tabpanel" aria-labelledby="pills-tenders-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-3.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-2.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-1.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-6.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-5.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="new__card">
+                                    <div class="news__image"><img src="images/news__image-4.jpg" alt=""></div>
+                                    <div class="news__desc">
+                                        <h5>Смысл сайта</h5>
+                                        <small>22.10.2019</small>
+                                        <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                                            несколько абзацев более менее осмысленного текста рыбы на русском языке, а
+                                            начинающему оратору... </p>
+                                        <a class="hvr-underline-from-left" href="">Подробнее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination d-flex justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="main__advertising mt-5" id="main__advertising">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-9">
+                        <div id="advertising__slider" class="advertising__slider pt-5 pb-5 carousel slide"
+                            data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="advertising__card">
+                                                <div class="advertising__img">
+                                                    <img src="images/services__img-1.jpg" alt="">
+                                                </div>
+                                                <div class="advertising__desc">
+                                                    <h5 class="text-center">CIP зал</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                            <div class="advertising__card d-none d-lg-block">
+                                                <div class="advertising__img">
+                                                    <img src="images/services__img-2.jpg" alt="">
+                                                </div>
+                                                <div class="advertising__desc">
+                                                    <h5 class="text-center">Авиакассы</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="advertising__card">
+                                                <div class="advertising__img">
+                                                    <img src="images/services__img-3.jpg" alt="">
+                                                </div>
+                                                <div class="advertising__desc">
+                                                    <h5 class="text-center">CIP зал</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                            <div class="advertising__card d-none d-lg-block">
+                                                <div class="advertising__img">
+                                                    <img src="images/services__img-4.jpg" alt="">
+                                                </div>
+                                                <div class="advertising__desc">
+                                                    <h5 class="text-center">Авиакассы</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row align-items-center justify-content-around">
+                                            <div class="advertising__card">
+                                                <div class="advertising__img">
+                                                    <img src="images/services__img-5.jpg" alt="">
+                                                </div>
+                                                <div class="advertising__desc">
+                                                    <h5 class="text-center">CIP зал</h5>
+                                                    <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                                                        сгенерировать несколько абзацев более менее осмысленного.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advertising__carousel-control">
+                                <a class="carousel-control-prev" href="#advertising__slider" role="button"
+                                    data-slide="prev">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a class="carousel-control-next" href="#advertising__slider" role="button"
+                                    data-slide="next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="main-title">Место для <br>
+                            рекламы</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer pt-5 pb-5">
+        <div class="container">
+            <h3 class="footer__title text-center">Международный аэропорт Ферганы</h3>
+        </div>
+        <div class="container">
+            <nav class="footer__nav d-flex">
+                <div class="container">
+                    <div class="row justify-content-center justify-content-lg-between align-items-start">
+                        <div class="col-6 col-lg-3">
+                            <h6 class="footer__list-title">Меню</h6>
+                            <ul>
+                                <li><a class="hvr-underline-from-left" href="">Вылет</a></li>
+                                <li><a class="hvr-underline-from-left" href="">Прилет</a></li>
+                                <li><a class="hvr-underline-from-left" href="">Услуги</a></li>
+                                <li><a class="hvr-underline-from-left" href="">Партнерам</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h6 class="footer__list-title">Справочная служба</h6>
+                            <ul>
+                                <li><a class="hvr-underline-from-left" href=""><i class="fas fa-phone-alt mr-2"></i>+1
+                                        234 567 890</a></li>
+                                <li><a class="hvr-underline-from-left" href=""><i
+                                            class="fas fa-envelope mr-2"></i>e-mail@.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h6 class="footer__list-title">Наши социальные сети</h6>
+                            <ul class="footer-nav__social d-flex">
+                                <li><a class="hvr-underline-from-left" href=""><i
+                                            class="fab fa-telegram-plane mr-3"></i></a></li>
+                                <li><a class="hvr-underline-from-left" href=""><i class="fab fa-youtube mr-3"></i></a>
+                                </li>
+                                <li><a class="hvr-underline-from-left" href=""><i class="fab fa-instagram mr-3"></i></a>
+                                </li>
+                                <li><a class="hvr-underline-from-left" href=""><i
+                                            class="fab fa-facebook-f mr-3"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h6 class="footer__list-title">Связатся с нами</h6>
+                            <div class="footer-nav__user-application">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn hvr-ripple-out text-uppercase" data-toggle="modal"
+                                    data-target="#user-application">
+                                    Оставить заявку
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="user-application" tabindex="-1" role="dialog"
+                                    aria-labelledby="user-applicationTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="user-applicationTitle">Оставить заявку</h5>
+                                                <button type="button" class="close ml-0" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="header-form d-flex flex-column text-center">
+                                                    <input type="text" placeholder="Имя">
+                                                    <input type="text" placeholder="E-mail">
+                                                    <input type="text" placeholder="Телефон">
+
+                                                    <textarea placeholder="Вопросы"></textarea>
+                                                    <a href="">Отправить</a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <h6 class="footer__under-footer text-center mb-0">© 2019 Международный аэропорт Ферганы</h6>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

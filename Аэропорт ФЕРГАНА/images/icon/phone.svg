@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 33.899px;
+        fill: #fefefe;
+        font-family: FontAwesome5Free-Solid, FontAwesome5Free;
+      }
+    </style>
+  </defs>
+  <text id="phone.svg" class="cls-1" transform="translate(1.746 12.971) scale(0.413)"></text>
+</svg>

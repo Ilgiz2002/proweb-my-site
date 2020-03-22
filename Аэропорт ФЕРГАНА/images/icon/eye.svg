@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 38.742px;
+        fill: #fefefe;
+        font-family: FontAwesome5Free-Solid, FontAwesome5Free;
+      }
+    </style>
+  </defs>
+  <text id="eye.svg" class="cls-1" transform="translate(1.747 12.971) scale(0.413)"></text>
+</svg>
