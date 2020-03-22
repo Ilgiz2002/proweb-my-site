@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Itta mebel</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__nav">
+            <div class="container">
+                <div class="row justify-content-around align-items-center">
+                    <div class="col-auto">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="" class="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-auto d-none d-sm-block">
+                        <ul class="header__nav-list d-sm-flex">
+                            <li><a class="header__nav-phone" href="tel:+79062202004">+7 (906) 220-20-04</a></li>
+                            <li><a class="header__nav-email" href="mailto:zakaz@itta-mebel.ru">zakaz@itta-mebel.ru</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="offer">
+            <div class="offer__block row justify-content-between no-gutters">
+                <div class="col-12">
+                    <div class="offer__img">
+                        <img src="images/offer-pic1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="offer__desc">
+                        <h1 class="header__title">
+                            Высокие технологии комфорта
+                        </h1>
+                        <div class="header__wrap">
+                            <p class="header__sub-title">
+                                Производство и монтаж мебели от идеи до ввода в эксплуатацию
+                            </p>
+
+                            <!-- Button trigger modal -->
+                            <button class="header__btn d-flex align-items-center" data-toggle="modal"
+                                data-target="#user__application">
+                                <span class="header-btn__arrow">→</span>
+                                <span class="header-btn__text">Оставить заявку</span>
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="header__user-application modal fade" id="user__application" tabindex="-1"
+                                role="dialog" aria-labelledby="user__applicationTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="user__applicationTitle">Оставить заявку</h5>
+                                            <button type="button" class="close ml-0" data-dismiss="modal"
+                                                aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="header__modal-form">
+                                                <input type="text" class="form-control" placeholder="Ваше имя">
+                                                <input type="text" class="form-control" placeholder="Ваша фамилия">
+                                                <input type="text" class="form-control" placeholder="Ваш телефон">
+                                                <textarea placeholder="Ваше сообщение"></textarea>
+                                                <button class="modal-form__btn">
+                                                    Отправить
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="#header" class="header__arrow-fixed">
+            <span class="arrow-fixed__text">Наверх</span>
+            <span class="arrow-fixed">↑</span>
+        </a>
+    </header>
+    <main>
+        <section class="main__our-work" id="main__our-work">
+            <div class=" our-work__block row no-gutters">
+                <div class="our-work__text">
+                    <p class="crambs">что мы делаем</p>
+                    <h2 class="main__title text-right">
+                        Превращаем идеи в произведения искусства
+                    </h2>
+                    <h3 class="work__about ">ABOUT</h3>
+                </div>
+                <div class="work__desc">
+                    <div class="work__img">
+                        <img src="images/work__img-2.jpg" alt="">
+                    </div>
+                    <p>Уже более 10 лет мы разрабатываем эффективные и ориентированные
+                        на будущее интерьерные решения для для жилых и общественных помещений.
+                        Мы поможем вам создать интерьер вашей мечты и выразить свой собственный
+                        индивидуальный стиль. Сотрудничаем с дизайнерами и архитекторами
+                        как в России так и за рубежом. Мы гордимся качеством и гибкостью
+                        в отношении потребностей наших клиентов
+                    </p>
+                    <button class="main__btn d-flex align-items-center">
+                        <span class="main-btn__arrow">→</span>
+                        <span class="main-btn__text">Подробнее о компании</span>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-12 col-lg-8">
+                        <div class="crambs-block d-flex justify-content-end">
+                            <p class="crambs">Найдите свое вдохновение</p>
+                        </div>
+                        <div class="project__title d-flex justify-content-between mb-5">
+                            <h2 class="main__title">Наши последние проекты</h2>
+                            <button class="project__btn d-flex align-items-center">
+                                <span class="main-btn__arrow">→</span>
+                                <span class="main-btn__text">В каталог</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="project__card">
+                            <h3 class="project__title">офис</h3>
+                            <div class="project__img">
+                                <img src="images/project__img-1.jpg" alt="">
+                            </div>
+                            <div class="project__desc">
+                                <p class="project__text">Название проекта</p>
+                                <p class="project__sub-text">
+                                    <span>Сроки</span>
+                                    <strong>3 недели</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="project__card">
+                            <h3 class="project__title">салон</h3>
+                            <div class="project__img">
+                                <img src="images/project__img-2.jpg" alt="">
+                            </div>
+                            <div class="project__desc">
+                                <p class="project__text">Название проекта</p>
+                                <p class="project__sub-text">
+                                    <span>Сроки</span>
+                                    <strong>3 недели</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="project__card">
+                            <h3 class="project__title">кухня</h3>
+                            <div class="project__img">
+                                <img src="images/project__img-3.jpg" alt="">
+                            </div>
+                            <div class="project__desc">
+                                <p class="project__text">Название проекта</p>
+                                <p class="project__sub-text">
+                                    <span>Сроки</span>
+                                    <strong>3 недели</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="statistics">
+            <div class="statistics__block row no-gutters">
+                <div class="statistics__text">
+                    <div class="statistics__title">
+                        <p class="crambs">УНИКАЛЬНЫЙ ОПЫТ</p>
+
+                        <h2 class="main__title text-right mb-5">
+                            Несколько интересных фактов
+                        </h2>
+                    </div>
+                    <nav class="statistics__nav">
+                        <ul class="d-flex flex-wrap align-items-center justify-content-around mb-0">
+                            <li class="statistics__nav-item">
+                                <span class="statistics__nav-number">264</span>
+                                <span class="statistics__nav-text d-block">Реализованных проекта</span>
+
+                            </li>
+                            <li class="statistics__nav-item">
+                                <span class="statistics__nav-number">20</span>
+                                <span class="statistics__nav-text d-block">Городов России</span>
+
+                            </li>
+                            <li class="statistics__nav-item">
+                                <span class="statistics__nav-number">1150м</span>
+                                <span class="statistics__nav-text d-block mb-0">Производства</span>
+
+                            </li>
+                            <li class="statistics__nav-item">
+                                <span class="statistics__nav-number">116</span>
+                                <span class="statistics__nav-text d-block mb-0">Уникальных решений</span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="statistics__img">
+                    <img src="images/statistics__img.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-around align-items-start">
+                <div class="col-12 col-sm-auto">
+                    <div class="footer__logo">
+                        <img src="images/logo.png" alt="itta Mebel">
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-5 col-lg-2">
+                    <nav class="footer__nav-contact" id="footer__nav-contact">
+                        <ul>
+                            <li>
+                                <p class="footer__nav-text">Телефон</p>
+                                <span><a class="footer__nav-link" href="tel:+88112605602">8 (8112) 605 602</a></span>
+                            </li>
+                            <li>
+                                <p class="footer__nav-text">Мобильный телефон</p>
+                                <span><a class="footer__nav-link" href="tel:+79217035602">+7 (921) 703 56 02</a></span>
+                            </li>
+                            <li>
+                                <p class="footer__nav-text">E-mail</p>
+                                <span><a class="footer__nav-link" href="">itta.mebel@yandex.ru</a></span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6 col-sm-5 col-md-5 col-lg-3">
+                    <nav class="footer__nav-contact">
+                        <ul>
+                            <li>
+                                <p class="footer__nav-text">Адрес</p>
+                                <span><a class="footer__nav-link" href="">Россия, Псковская область, г. Псков, ул.
+                                        Бизяева
+                                        стр.1</a></span>
+                            </li>
+                            <li>
+                                <p class="footer__nav-text">Место положения</p>
+                                <span><a class="footer__nav-link" href="">57.854322,28.362609</a></span>
+                            </li>
+                            <li>
+                                <p class="footer__nav-text">Время работы</p>
+                                <span><a class="footer__nav-link" href="">Пн-Пт 9:00-18:00</a></span>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-12 col-sm-8 col-md-8 col-lg-5">
+                    <div class="footer__maps">
+                        <img src="images/footer__maps.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <nav class="footer__under-nav">
+                        <ul class="d-flex flex-wrap justify-content-around">
+                            <li><a class="footer__under-nav-link hvr-underline-from-center" href="#header">Главная</a></li>
+                            <li><a class="footer__under-nav-link hvr-underline-from-center" href="#main__our-work">О компании</a></li>
+                            <li><a class="footer__under-nav-link hvr-underline-from-center" href="#projects">Каталог</a></li>
+                            <li><a class="footer__under-nav-link hvr-underline-from-center" href="#footer__nav-contact">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
